@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/gs-nasc/404-Page-Challenge">
       Solution
     </a>
     <span> | </span>
