@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+body {
+    font-family: "Space Mono";
+    background: #fff;
+    color: #333333;
+    margin: 0;
+    padding: 1.4rem 6rem;
+}
+
+header {
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+header h2 {
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scarescrow {
+    width: 75%;
+}
+
+.message {
+    width: 75%;
+}
+
+.message h1 {
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+}
+
+.message p {
+    display: block;
+    width: 60%;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+}
+
+.button {
+    border: none;
+    background: rgb(201, 201, 201);
+    padding: 1.6rem 2.5rem;
+    color: rgb(0, 0, 0);
+    font-family: "Space Mono";
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 2.6rem;
+}
+
+.button.dark {
+    background: #333333;
+    color: #fff;
+}
+
+footer {
+    height: 100%;
+    margin-top: 10%;
+}
+
+footer p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+footer p a b {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        padding: 0.4rem 2rem;
+    }
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scarescrow {
+        width: 100% !important;
+    }
+    .row {
+        flex-direction: column !important;
+    }
+    .message {
+        width: 100% !important;
+    }
+    .message h1 {
+        font-family: Space Mono;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.035em;
+        text-align: left;
+    }
+
+    .message p {
+        display: block;
+        width: 100%;
+        font-family: Space Mono;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.035em;
+        color: #4f4f4f;
+    }
+}
