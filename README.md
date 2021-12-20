@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://gs-nasc.github.io/404-Page-Challenge/">
       Demo
     </a>
     <span> | </span>
